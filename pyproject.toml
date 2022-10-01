@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lfl-reports"
+version = "0.1.0"
+description = "Create Like For Like reports"
+authors = ["hayer969"]
+readme = "README.md"
+# packages = [{include = "lfl_reports"}]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+pandas = "^1.5.0"
+dash = "^2.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
