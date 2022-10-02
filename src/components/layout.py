@@ -1,6 +1,6 @@
 from dash import Dash, html
 
-from . import nomenclature
+from . import nomenclature, options_table
 
 
 def create_layout(app: Dash) -> html.Div:
@@ -10,9 +10,10 @@ def create_layout(app: Dash) -> html.Div:
             html.H1(app.title),
             html.Hr(),
             html.Div(
-                className="upload_nomenclature_container",
+                className="upload",
                 children=[
                     nomenclature.render(app),
+                    options_table.render(app),
                 ],
             ),
         ],

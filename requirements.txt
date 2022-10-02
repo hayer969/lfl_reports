@@ -79,6 +79,9 @@ dash-table==5.0.0 ; python_version >= "3.8" and python_version < "3.9" \
 dash==2.6.2 ; python_version >= "3.8" and python_version < "3.9" \
     --hash=sha256:00c7d1dddaf40154c0faa1f212faf8907907b8c2eb50b5d70ac8c72e51b5319d \
     --hash=sha256:dd04d0c072879e3c14541412e580b61cd87e9de817dba5c7dfda6d9629bc0757
+et-xmlfile==1.1.0 ; python_version >= "3.8" and python_version < "3.9" \
+    --hash=sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c \
+    --hash=sha256:a2ba85d1d6a74ef63837eed693bcb89c3f752169b0e3e7ae5b16ca5e1b3deada
 flask-compress==1.13 ; python_version >= "3.8" and python_version < "3.9" \
     --hash=sha256:1128f71fbd788393ce26830c51f8b5a1a7a4d085e79a21a5cddf4c057dcd559b \
     --hash=sha256:ee96f18bf9b00f2deb4e3406ca4a05093aa80e2ef0578525a3b4d32ecdff129d
@@ -164,6 +167,9 @@ numpy==1.23.3 ; python_version >= "3.8" and python_version < "3.9" \
     --hash=sha256:efd9d3abe5774404becdb0748178b48a218f1d8c44e0375475732211ea47c67e \
     --hash=sha256:f8c02ec3c4c4fcb718fdf89a6c6f709b14949408e8cf2a2be5bfa9c49548fd85 \
     --hash=sha256:ffcf105ecdd9396e05a8e58e81faaaf34d3f9875f137c7372450baa5d77c9a54
+openpyxl==3.0.10 ; python_version >= "3.8" and python_version < "3.9" \
+    --hash=sha256:0ab6d25d01799f97a9464630abacbb34aafecdcaa0ef3cba6d6b3499867d0355 \
+    --hash=sha256:e47805627aebcf860edb4edf7987b1309c1b3632f3750538ed962bbcc3bd7449
 pandas==1.5.0 ; python_version >= "3.8" and python_version < "3.9" \
     --hash=sha256:0d8d7433d19bfa33f11c92ad9997f15a902bda4f5ad3a4814a21d2e910894484 \
     --hash=sha256:1642fc6138b4e45d57a12c1b464a01a6d868c0148996af23f72dde8d12486bbc \
